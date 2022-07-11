@@ -134,7 +134,7 @@ export default function Home({ blogs, port, skills, work, expe }) {
 								return (
 									<div className="my-10" key={item._id}>
 										{" "}
-										<a href={item.link} target="1">
+										<a href={item.link && !item.ld} target="1">
 										<button disabled = {item.ld}>
 											<img
 												src={`${builder.image(item.image).width(2800).url()}`}
