@@ -217,7 +217,7 @@ export const getServerSideProps = async (context) =>
 	const Authorquery = `*[_type == "author"]`;
 	const author = await client.fetch(Authorquery);
 
-	console.log(blogs)
+	// //console.log(blogs)
 	// //console.log(author)
 
 
