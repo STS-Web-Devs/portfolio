@@ -135,11 +135,13 @@ export default function Home({ blogs, port, skills, work, expe }) {
 									<div className="my-10" key={item._id}>
 										{" "}
 										<a href={item.link} target="1">
+										<button disabled = {item.ld}>
 											<img
 												src={`${builder.image(item.image).width(2800).url()}`}
 												className="hover:scale-105 transition-all duration-200 mx-auto w-[1200px] grayscale-50 cursor-pointer hover:grayscale-0 h-[50%] lg:h-[400px] bg-transparent rounded-md px-4 py-2"
 											/>
 										</a>
+                                                                                </button>
 										<div className="p-6 md:flex items-center justify-between text-center lg:text-left lg:mx-5">
 											<h1 className="title-font text-2xl uppercase mt-3 font-medium text-gray-900 mb-3">
 												{item.title}
