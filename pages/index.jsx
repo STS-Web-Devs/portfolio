@@ -153,7 +153,7 @@ export default function Home({ blogs, port, skills, work, expe }) {
 													className="text-[#ffa42c] py-2 rounded-lg hover:text-[#d78b28] transition-all duration-200 cursor-pointer inline-flex items-center md:mb-2 lg:mb-0"
 												>
 													<button
-														className="disabled:text-red-500 flex items-center disabled:hover:bg-white px-4 py-2 rounded-lg"
+														className="disabled:text-red-500 disabled:cursor-not-allowed flex items-center disabled:hover:bg-white px-4 py-2 rounded-lg"
 														disabled={item.cd}
 													>
 														View Code
@@ -178,7 +178,7 @@ export default function Home({ blogs, port, skills, work, expe }) {
 													className="text-[#ffa42c] py-2 rounded-lg hover:text-[#d78b28] transition-all duration-200 cursor-pointer inline-flex items-center md:mb-2 lg:mb-0"
 												>
 													<button
-														className="disabled:text-red-500 flex items-center disabled:hover:bg-white px-4 py-2 rounded-lg"
+														className="disabled:text-red-500 disabled:cursor-not-allowed flex items-center disabled:hover:bg-white px-4 py-2 rounded-lg"
 														disabled={item.ld}
 													>
 														View Project
