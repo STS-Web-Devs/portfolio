@@ -60,7 +60,7 @@ export default function Home({ blogs, port, skills, work, expe }) {
 								Who am I?
 							</h2>
 							<h4 className="pt-6 text-xl  text-shadowfont-medium text-black sm:text-2xl lg:text-3xl">
-								I'm {profiles.name}, a Web & Graphics Designer.
+								 {profiles.name}, a Web & Graphics Designer.
 							</h4>
 							<p className="pt-6 font-body leading-relaxed text-grey-20">
 								{profiles.desc}
