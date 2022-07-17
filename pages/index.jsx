@@ -134,8 +134,8 @@ export default function Home({ blogs, port, skills, work, expe }) {
 								return (
 									<div className="my-10" key={item._id}>
 										{" "}
-										<a target="1">
 										<button disabled = {item.ld}>
+										<a target="1" href = {item.ld && item.link}>
 											<img
 												src={`${builder.image(item.image).width(2800).url()}`}
 												className="hover:scale-105 transition-all duration-200 mx-auto w-[1200px] grayscale-50 cursor-pointer hover:grayscale-0 h-[50%] lg:h-[400px] bg-transparent rounded-md px-4 py-2"
